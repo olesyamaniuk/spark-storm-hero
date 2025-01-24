@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lezzet ve zarafetin</title>
+    <link rel="icon" href="img/Icon 500x500.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body class="back">
+    <div id="cookie-popup" class="cookie-popup">
+      <div class="cookie-popup-container">
+        <p class="cookie-popup-text-two">
+          Web sitemizdeki deneyiminizi geliştirmek için çerezler kullanıyoruz.
+          Bu web sitesini kullanmaya devam ederek çerez kullanımını kabul etmiş
+          olursunuz.
+        </p>
+        <div class="cookie-button-container">
+          <button id="accept-cookies" class="cookie-button">
+            Çerezleri Kabul Et
+          </button>
+          <button id="decline-cookies" class="cookie-button">
+            Çerezleri Reddet
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header__background"></div>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="/#" class="navigation__link">Anasayfa</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#about" class="navigation__link">Restoranımız </a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#gallery" class="navigation__link">Menü</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#blog" class="navigation__link">Atmosfer</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#contact " class="navigation__link">İletişim </a>
+          </li>
+        </ul>
+        <div class="header__button-wrapper">
+          <a href="/" class="">
+            <img href="/" class="header__icon-button" alt=""
+          /></a>
+          <button type="button" class="header__icon-button" data-menu-button>
+            <img
+              class="header__icon header__icon--menu"
+              src="/img/header/Default.png"
+              alt=""
+            />
+            <img
+              class="header__icon header__icon--close close"
+              src="img/header/Burger-icon-close.png"
+              alt=""
+            />
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home" id="home">
+        <div class="home__wrapper">
+          <p class="home-text">
+            Lezzet ve zarafetin buluştuğu mutfağımıza hoş geldiniz.
+          </p>
+
+          <button class="home-button">Rezervasyon</button>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <p class="about-title">Restoranımıza Hoş Geldiniz</p>
+        <p class="about-text">
+          Her tabakta Akdeniz’in eşsiz tatlarını bulacağınız restoranımızda sizi
+          bekleyen ayrıcalıklarımız:
+        </p>
+        <div class="about-container-top">
+          <img class="about-container-img" src="/img/about/image.png" alt="" />
+
+          <ul class="feature-list">
+            <li class="feature">
+              <div class="feature-top">
+                <img src="/img/about/plate-new2 1.png" alt="" />
+                <p class="feature-text">Zengin Menü</p>
+              </div>
+              <p class="feature-text-two">
+                Akdeniz’in dört bir yanından özenle hazırlanmış lezzetler.
+              </p>
+            </li>
+            <li class="feature">
+              <div class="feature-top">
+                <img src="/img/about/Frame 405.png" alt="" />
+                <p class="feature-text">Taze ve Yerel Malzemeler</p>
+              </div>
+              <p class="feature-text-two">
+                Tüm yemeklerimiz, bölgenin en taze ve kaliteli ürünleriyle
+                hazırlanır.
+              </p>
+            </li>
+            <li class="feature">
+              <div class="feature-top">
+                <img src="/img/about/Frame 406.png" alt="" />
+                <p class="feature-text">Usta Şeflerimiz</p>
+              </div>
+              <p class="feature-text-two">
+                Ekibimiz, Akdeniz mutfağı konusunda uzman, yılların deneyimine
+                sahip şeflerden oluşur.
+              </p>
+            </li>
+            <li class="feature">
+              <div class="feature-top">
+                <img src="/img/about/Frame 407.png" alt="" />
+                <p class="feature-text">Unutulmaz Atmosfer</p>
+              </div>
+              <p class="feature-text-two">
+                Restoranımız, sizi Akdeniz kıyılarında hissettirecek özgün bir
+                tasarıma sahiptir.
+              </p>
+            </li>
+            <li class="feature">
+              <div class="feature-top">
+                <img src="/img/about/Frame 408.png" alt="" />
+                <p class="feature-text">Zengin Şarap Seçenekleri</p>
+              </div>
+              <p class="feature-text-two">
+                Yemeklerinize eşlik edecek geniş şarap menümüzü keşfedin.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <div class="gallery-title-container">
+          <p class="gallery-title">Menü</p>
+          <div class="gallery-title-line"></div>
+        </div>
+        <ul class="gallery__list">
+          <li class="gallery__item">
+            <div class="gallery-item-top">
+              <img
+                class="gallery-img"
+                src="/img/gallery/menu-icon.png"
+                alt=""
+              />
+              <p class="gallery-item-title">Başlangıçlar</p>
+            </div>
+            <div class="gallery-item-buttom">
+              <p class="gallery-item-text">Mercimek Çorbası</p>
+              <p class="gallery-item-number">₺50</p>
+            </div>
+            <div class="gallery-item-buttom gallery-item-buttom-two">
+              <p class="gallery-item-text">Humus ve Lavaş</p>
+              <p class="gallery-item-number">₺65</p>
+            </div>
+            <div class="gallery-item-buttom">
+              <p class="gallery-item-text">Akdeniz Salatası</p>
+              <p class="gallery-item-number">₺70</p>
+            </div>
+            <div class="gallery-item-buttom gallery-item-buttom-two">
+              <p class="gallery-item-text">Falafel Topları</p>
+              <p class="gallery-item-number">₺60</p>
+            </div>
+          </li>
+          <li class="gallery__item">
+            <div class="gallery-item-top">
+              <img
+                class="gallery-img"
+                src="/img/gallery/menu-icon (1).png"
+                alt=""
+              />
+              <p class="gallery-item-title">Et Yemekleri</p>
+            </div>
+            <div class="gallery-item-buttom">
+              <p class="gallery-item-text">Izgara Bonfile (250g)</p>
+              <p class="gallery-item-number">₺250</p>
+            </div>
+            <div class="gallery-item-buttom gallery-item-buttom-two">
+              <p class="gallery-item-text">Tavuk Şiş</p>
+              <p class="gallery-item-number">₺180</p>
+            </div>
+            <div class="gallery-item-buttom">
+              <p class="gallery-item-text">Kuzu Pirzola (300g)</p>
+              <p class="gallery-item-number">₺270</p>
+            </div>
+            <div class="gallery-item-buttom gallery-item-buttom-two">
+              <p class="gallery-item-text">Fırında Osmanlı Kebabı</p>
+              <p class="gallery-item-number">₺220</p>
+            </div>
+          </li>
+
+          <li class="gallery__item">
+            <div class="gallery-item-top">
+              <img
+                class="gallery-img"
+                src="/img/gallery/menu-icon (2).png"
+                alt=""
+              />
+              <p class="gallery-item-title">Balık ve Deniz Ürünleri</p>
+            </div>
+            <div class="gallery-item-buttom">
+              <p class="gallery-item-text">Izgara Levrek</p>
+              <p class="gallery-item-number">₺200</p>
+            </div>
+            <div class="gallery-item-buttom gallery-item-buttom-two">
+              <p class="gallery-item-text">Zeytinyağlı Karides Tava</p>
+              <p class="gallery-item-number">₺190</p>
+            </div>
+            <div class="gallery-item-buttom">
+              <p class="gallery-item-text">Midye Dolması</p>
+              <p class="gallery-item-number">₺80</p>
+            </div>
+            <div class="gallery-item-buttom gallery-item-buttom-two">
+              <p class="gallery-item-text">Somon Izgara</p>
+              <p class="gallery-item-number">₺210</p>
+            </div>
+          </li>
+
+          <li class="gallery__item">
+            <div class="gallery-item-top">
+              <img
+                class="gallery-img"
+                src="/img/gallery/menu-icon (3).png"
+                alt=""
+              />
+              <p class="gallery-item-title">Tatlılar</p>
+            </div>
+            <div class="gallery-item-buttom">
+              <p class="gallery-item-text">Baklava</p>
+              <p class="gallery-item-number">₺50</p>
+            </div>
+            <div class="gallery-item-buttom gallery-item-buttom-two">
+              <p class="gallery-item-text">Künefe</p>
+              <p class="gallery-item-number">₺60</p>
+            </div>
+            <div class="gallery-item-buttom">
+              <p class="gallery-item-text">Dondurmalı İrmik Helvası</p>
+              <p class="gallery-item-number">₺55</p>
+            </div>
+            <div class="gallery-item-buttom gallery-item-buttom-two">
+              <p class="gallery-item-text">Taze Meyve Tabağı</p>
+              <p class="gallery-item-number">₺40</p>
+            </div>
+          </li>
+
+          <li class="gallery__item">
+            <div class="gallery-item-top">
+              <img
+                class="gallery-img"
+                src="/img/gallery/menu-icon (4).png"
+                alt=""
+              />
+              <p class="gallery-item-title">Kahve ve Çay</p>
+            </div>
+            <div class="gallery-item-buttom">
+              <p class="gallery-item-text">Türk Kahvesi</p>
+              <p class="gallery-item-number">₺35</p>
+            </div>
+            <div class="gallery-item-buttom gallery-item-buttom-two">
+              <p class="gallery-item-text">Filtre Kahve</p>
+              <p class="gallery-item-number">₺40</p>
+            </div>
+            <div class="gallery-item-buttom">
+              <p class="gallery-item-text">Yeşil Çay</p>
+              <p class="gallery-item-number">₺30</p>
+            </div>
+            <div class="gallery-item-buttom gallery-item-buttom-two">
+              <p class="gallery-item-text">Elma Çayı</p>
+              <p class="gallery-item-number">₺35</p>
+            </div>
+          </li>
+
+          <li class="gallery__item">
+            <div class="gallery-item-top">
+              <img
+                class="gallery-img"
+                src="/img/gallery/menu-icon (5).png"
+                alt=""
+              />
+              <p class="gallery-item-title">Alkollü İçecekler</p>
+            </div>
+            <div class="gallery-item-buttom">
+              <p class="gallery-item-text">Kırmızı Şarap Şişesi</p>
+              <p class="gallery-item-number">₺450</p>
+            </div>
+            <div class="gallery-item-buttom gallery-item-buttom-two">
+              <p class="gallery-item-text">Beyaz Şarap Şişesi</p>
+              <p class="gallery-item-number">₺400</p>
+            </div>
+            <div class="gallery-item-buttom">
+              <p class="gallery-item-text">Rakı (50ml)</p>
+              <p class="gallery-item-number">₺120</p>
+            </div>
+            <div class="gallery-item-buttom gallery-item-buttom-two">
+              <p class="gallery-item-text">Klasik Mojito</p>
+              <p class="gallery-item-number">₺150</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="blog" id="blog">
+        <h2 class="blog-title">Atmosferimiz</h2>
+        <img class="blog-img-one" src="/img/blog/image-01.png" alt="" />
+        <img class="blog-img-two" src="/img/blog/image-02.png" alt="" />
+        <div class="blog-text-container">
+          <p class="blog-text-one">
+            Bizi ziyaret edin ve Akdeniz mutfağının zenginliğini, sıcaklığını ve
+            zarafetini keşfedin. Restoranımızda sizi ağırlamaktan mutluluk
+            duyarız.
+          </p>
+          <p class="blog-text-two">Afiyet olsun!</p>
+        </div>
+        <img class="blog-img-three" src="/img/blog/image-03.png" alt="" />
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="gallery-title-container">
+          <p class="gallery-title">İletişim</p>
+          <div class="gallery-title-line"></div>
+        </div>
+
+        <div class="contact-adress-container">
+          <div>
+            <p class="contact-title">Rezervasyon yapmak için bize ulaşın:</p>
+            <ul class="contact-adress-list">
+              <li class="contact-adress">
+                <img
+                  class="contact-adress-img"
+                  src="/img/contact/Icons.png"
+                  alt=""
+                />
+                <a class="contact-img-container-text" href="tel:+905551234567">
+                  +90 555 123 4567</a
+                >
+              </li>
+              <li class="contact-adress">
+                <img src="/img/contact/Icons (1).png" alt="" />
+
+                <a
+                  class="contact-img-container-text"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Mavi Sokak 12, Antalya, Türkiye
+                </a>
+              </li>
+              <li class="contact-adress">
+                <img src="/img/contact/Icons (2).png" alt="" />
+
+                <a
+                  href="mailto:info@bestquestpath.com"
+                  class="contact-img-container-text"
+                >
+                  info@bestquestpath.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="hours">
+            <div class="hours-container-top">
+              <img
+                src="/img/contact/fluent-mdl2_business-hours-sign.png"
+                alt=""
+              />
+              <p class="hours-title">Çalışma Saatleri</p>
+            </div>
+            <div class="hours-container-buttom">
+              <p class="hours-container-buttom-text">Salı-Cuma</p>
+              <p class="hours-container-buttom-text-two">10:00 - 22:00</p>
+            </div>
+            <div class="hours-container-buttom">
+              <p class="hours-container-buttom-text">Cumartesi-Pazar</p>
+              <p class="hours-container-buttom-text-two">10:00 - 23:00</p>
+            </div>
+            <div class="hours-container-buttom">
+              <p class="hours-container-buttom-text">Pazartesi</p>
+              <p class="hours-container-buttom-text-two">Kapalı</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-wrapper">
+          <a class="footer-text" href="policy.html">Gizlilik Politikası</a>
+          <a class="footer-text" href="terms.html">Şartlar ve Koşullar</a>
+          <a class="footer-text" href="cookie.html">Çerez Politikası</a>
+        </div>
+        <p class="footer-copyright">
+          © 2024 bestquestpath.com. Tüm hakları saklıdır
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/mobile-menu.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/slick.js"></script>
+  </body>
+</html>
